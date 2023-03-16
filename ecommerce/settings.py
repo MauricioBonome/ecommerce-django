@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'accounts',
     'store',
     'carts',
+    'orders',
 ]
 
 MIDDLEWARE = [
@@ -140,8 +141,8 @@ MESSAGE_TAG ={
 
 EMAIL_HOST ='smtp.gmail.com'
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'mauricio.bonome@gmail.com '
-EMAIL_HOST_PASSWORD ='lolbypnaegqglsjv'
+EMAIL_HOST_USER = 'inmobiliariabonome@gmail.com'
+EMAIL_HOST_PASSWORD ='nzejytcxllfimroh'
 EMAIL_USE_TLS= True
 
 # Default primary key field type
